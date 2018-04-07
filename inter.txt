@@ -1,0 +1,16 @@
+TIME      START      0
+0000      LDA      HOURS
+0003      MUL      SIXTIY
+0006      STA      MINTS
+0009      TD      SCREEN
+000c      JEQ      WLOOP
+000f      LDCH      MINTS,X
+0012      WD      SCREEN
+0015      TIX      THREE
+0018      JLT      WLOOP
+001b      WORD      8
+001e      WORD      60
+0021      BYTE      X'02'
+0022      RESW      1
+0025      WORD      3
+0028      END      BEGIN

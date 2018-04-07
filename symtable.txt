@@ -1,0 +1,8 @@
+TIME      0
+BEGIN      0000
+WLOOP      0009
+HOURS      001b
+SIXTIY      001e
+SCREEN      0021
+MINTS      0022
+THREE      0025
